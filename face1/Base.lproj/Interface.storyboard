@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <dateLabel width="90" height="29" alignment="left" format="h:mm" id="AzE-oE-Y1T">
+                            <color key="textColor" red="0.70523686112517514" green="0.6156407180493888" blue="0.52755556900041922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" weight="ultraLight" pointSize="38"/>
+                        </dateLabel>
+                        <dateLabel alignment="right" textAlignment="right" format="d" id="XKU-EL-jip">
+                            <color key="textColor" red="0.70523686112517514" green="0.6156407180493888" blue="0.52755556900041922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" weight="thin" pointSize="16"/>
+                        </dateLabel>
+                        <activity width="50" height="50" alignment="left" verticalAlignment="bottom" id="aGj-gm-uTW">
+                            <variation key="device=watch42mm" verticalAlignment="bottom"/>
+                        </activity>
+                    </items>
+                    <menu key="menu" id="Qxc-Hw-kqp">
+                        <items>
+                            <menuItem title="Custom" icon="more" id="G70-JW-Qr6"/>
+                        </items>
+                    </menu>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

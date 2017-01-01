@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>face1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>faces.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>C8D9F5F51E17B4B000037457</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C8D9F6091E17B4FC00037457</key>
 		<dict>
 			<key>primary</key>
 			<true/>
