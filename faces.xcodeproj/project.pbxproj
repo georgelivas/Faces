@@ -15,13 +15,13 @@
 		C8D9F5E51E17B4B000037457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D9F5E31E17B4B000037457 /* LaunchScreen.storyboard */; };
 		C8D9F5F01E17B4B000037457 /* facesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D9F5EF1E17B4B000037457 /* facesTests.m */; };
 		C8D9F5FB1E17B4B000037457 /* facesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D9F5FA1E17B4B000037457 /* facesUITests.m */; };
-		C8D9F60E1E17B4FC00037457 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D9F60C1E17B4FC00037457 /* Interface.storyboard */; };
 		C8D9F6101E17B4FC00037457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8D9F60F1E17B4FC00037457 /* Assets.xcassets */; };
 		C8D9F6171E17B4FD00037457 /* face1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C8D9F6161E17B4FC00037457 /* face1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C8D9F61D1E17B4FD00037457 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D9F61C1E17B4FD00037457 /* InterfaceController.m */; };
 		C8D9F6201E17B4FD00037457 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D9F61F1E17B4FD00037457 /* ExtensionDelegate.m */; };
 		C8D9F6221E17B4FD00037457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8D9F6211E17B4FD00037457 /* Assets.xcassets */; };
 		C8D9F6261E17B4FD00037457 /* face1.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C8D9F60A1E17B4FC00037457 /* face1.app */; };
+		C8D9F6301E19A3EB00037457 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D9F60C1E17B4FC00037457 /* Interface.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -407,8 +407,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D9F6301E19A3EB00037457 /* Interface.storyboard in Resources */,
 				C8D9F6101E17B4FC00037457 /* Assets.xcassets in Resources */,
-				C8D9F60E1E17B4FC00037457 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,6 +746,7 @@
 				C8D9F6011E17B4B000037457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8D9F6021E17B4B000037457 /* Build configuration list for PBXNativeTarget "facesTests" */ = {
 			isa = XCConfigurationList;
@@ -754,6 +755,7 @@
 				C8D9F6041E17B4B000037457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8D9F6051E17B4B000037457 /* Build configuration list for PBXNativeTarget "facesUITests" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +764,7 @@
 				C8D9F6071E17B4B000037457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8D9F6271E17B4FD00037457 /* Build configuration list for PBXNativeTarget "face1 Extension" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +773,7 @@
 				C8D9F6291E17B4FD00037457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8D9F62B1E17B4FD00037457 /* Build configuration list for PBXNativeTarget "face1" */ = {
 			isa = XCConfigurationList;
@@ -778,6 +782,7 @@
 				C8D9F62D1E17B4FD00037457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
